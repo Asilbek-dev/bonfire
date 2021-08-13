@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Button, Card, Row, Col } from "reactstrap";
+import { Container, Button, Card, Row } from "reactstrap";
 import "../style/service.scss";
 
 

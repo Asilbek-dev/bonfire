@@ -1,0 +1,112 @@
+#footer {
+    padding: 80px 0;
+    overflow: hidden;
+    margin-bottom: -25px;
+    .footer_logo {
+        img {
+            width: 25px;
+            height: 38px;
+            margin-bottom: 40px;
+        }
+        p {
+            width: 200px;
+            color: #BDCAD8;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+    .footer_menu {
+        h5 {
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #BDCAD8;
+            margin-bottom: 60px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+        }
+        .fab {
+            margin-right: 20px;
+            font-size: 24px;
+        }
+    }
+    .footer_end {
+        margin-top: 30px;
+        p {
+            font-size: 12px;
+            line-height: 21px;
+            color: #fff;
+        }
+        p:first-child {
+            margin-bottom: -3px;
+        }
+        .btn {
+            background: none;
+            border: 2px solid #BDCAD8;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 10px;
+            letter-spacing: 1.6px;
+            line-height: 11px;
+            text-transform: uppercase;
+        }
+        img {
+            width: 100px;
+            margin-top: -30px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    #footer {
+        padding: 30px 0;
+        overflow: hidden;
+        .footer_logo {
+            padding-right: 10px;
+            p {
+                width: 100%;
+                font-size: 12px;
+            }
+        }
+        .footer_menu {
+            padding-right: 10px;
+            h5 {
+                font-size: 12px;
+                margin-bottom: 25px;
+            }
+            p {
+                font-size: 12px;
+            }
+            .fab {
+                margin-right: 10px;
+                font-size: 16px;
+            }
+        }
+        .footer_end {
+            margin-top: 15px;
+            p {
+                font-size: 10px;
+                line-height: 15px;
+                color: #fff;
+            }
+            p:first-child {
+                margin-bottom: -3px;
+            }
+            .btn {
+                font-size: 6px;
+                letter-spacing: 1.1px;
+                line-height: 8px;
+                padding: 5px 8px;
+            }
+            img {
+                width: 50px;
+            }
+        }
+    }
+}
